@@ -1,0 +1,74 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:white;
+    font-size:10px;
+  }
+
+.body {
+    background-color:rgb(20, 19, 19);
+}
+
+.post {
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    padding: 5% 15%;
+}
+
+.header {
+    display: flex;
+    justify-content:space-between;
+    background-color:white;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.html-icon {
+    display:flex;
+    align-items: center;
+}
+
+.big-icon {
+    font-size: 1.5rem;
+}
+
+.html > p {
+    margin: 0 5px;
+    font-size:12px;
+}
+
+.right-side {
+    display:flex;
+    align-items: center;
+}
+
+.left-side {
+    display:flex;
+}
+
+.pic {
+    background-color:white;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    background-color:white;
+    justify-content:space-between;
+    padding: 10px;
+}
+
+#image {
+    width: 300px;
+}
+
+.footer {
+    width: 280px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
